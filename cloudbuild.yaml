@@ -4,7 +4,7 @@ steps:
   args: ['build', '-t', 'gcr.io/test-infrastructure/helloword-demo:$TAG_NAME', '.']
 # Push the container image to Container Registry
 - name: 'gcr.io/cloud-builders/docker'
-  args: ['push', 'gcr.io/test-infrastructure/helloword-demo:$TAG_NAME']
+  args: ['push', 'gcr.io/test-infrastructure-288509/helloword-demo:$TAG_NAME']
 - name: "gcr.io/cloud-builders/gke-deploy"
   args:
   - run
