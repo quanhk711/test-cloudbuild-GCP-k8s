@@ -18,7 +18,7 @@ spec:
         app: helloword
     spec:
       containers:
-      - image: gcr.io/test-infrastructure/helloword-demo:1.0
+      - image: gcr.io/test-infrastructure-288509/helloword-demo:1.0
         name: helloword-demo
         resources: {}
 status: {}
